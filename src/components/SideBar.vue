@@ -7,7 +7,7 @@
                 </div>
 
                 <v-list-item-content>
-                    <v-list-item-title class="font-color-primary">Alura Book</v-list-item-title>
+                    <v-list-item-title class="font-color-primary">Dev Books</v-list-item-title>
                     <v-list-item-subtitle class="font-color-primary">By: William M. Coelho</v-list-item-subtitle>
                 </v-list-item-content>
             </v-list-item>
@@ -38,9 +38,9 @@ export default {
         return {
             selectedItem: 1,
             items: [
-                { text: 'Home', icon: 'mdi-clock', to:'/' },
+                { text: 'Home', icon: 'mdi-home', to:'/' },
                 { text: 'Autores', icon: 'mdi-account', to:'/authors' },
-                { text: 'Livros', icon: 'mdi-flag', to:'/books' },
+                { text: 'Livros', icon: 'mdi-book', to:'/books' },
             ],
         }
     },
